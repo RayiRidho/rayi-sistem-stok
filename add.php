@@ -146,6 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Jika tidak ada mode yang dikenali, redirect kembali ke add.php
     header("Location: add.php");
     exit;
+    
 }
 ?>
 
@@ -164,6 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <div class="menu-toggle" onclick="toggleSidebar()">
     <i class="fas fa-bars"></i>
+    <!-- p -->
 </div>
 
 <div class="sidebar" id="sidebar">
